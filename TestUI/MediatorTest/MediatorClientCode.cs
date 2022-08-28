@@ -6,7 +6,7 @@ using Program.MediatorTest;
 
 namespace TestUI.MediatorTest
 {
-    public class ClientCode
+    public class MediatorClientCode
     {
         public static void Run()
         {
@@ -14,7 +14,7 @@ namespace TestUI.MediatorTest
             CreateSomeEntityRequest request = new CreateSomeEntityRequest();
             request.Name = "Furkan";
 
-            mediator.Request<SomeEntity>(request);
+            mediator.Response<SomeEntity>(request);
         }
     }
 }

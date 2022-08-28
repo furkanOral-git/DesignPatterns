@@ -1,5 +1,6 @@
 ﻿using System;
 using Mediator.Concrete;
+using TestUI.MediatorTest;
 
 namespace Program
 {
@@ -7,7 +8,7 @@ namespace Program
     {
         public static void Main(string[] args)
         {
-            
+            MediatorClientCode.Run();
             
         }
     }

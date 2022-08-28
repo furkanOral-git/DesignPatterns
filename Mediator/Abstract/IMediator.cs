@@ -7,7 +7,7 @@ namespace Mediator.Abstract
 {
     public interface IMediator
     {
-        public TResponse Request<TResponse>(IRequest<TResponse> request) where TResponse : class, IResponse;
+        public TResponse Response<TResponse>(IRequest<TResponse> request) where TResponse : class, IResponse;
 
     }
 }
