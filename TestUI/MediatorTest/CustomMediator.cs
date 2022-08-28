@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mediator.Abstract;
-using Mediator.Concrete;
+using Mediator;
+
 
 namespace Program.MediatorTest
 {

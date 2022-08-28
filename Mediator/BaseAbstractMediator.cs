@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Mediator.Abstract;
 
-namespace Mediator.Concrete
+
+namespace Mediator
 {
     public abstract class BaseAbstractMediator : IMediator
     {

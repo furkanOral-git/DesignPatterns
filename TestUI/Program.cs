@@ -1,5 +1,5 @@
 ﻿using System;
-using Mediator.Concrete;
+using Mediator;
 using TestUI.MediatorTest;
 
 namespace Program
